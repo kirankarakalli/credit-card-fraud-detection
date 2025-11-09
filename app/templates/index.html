@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Fraud Detection</title>
+</head>
+<body>
+    <h2>Enter Transaction Details (30 Features)</h2>
+    <form action="/predict" method="post">
+        <label>Time:</label><input type="number" step="any" name="Time" required><br>
+
+        {% for i in range(1, 29) %}
+            <label>V{{i}}:</label><input type="number" step="any" name="V{{i}}" required><br>
+        {% endfor %}
+
+        <label>Amount:</label><input type="number" step="any" name="Amount" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
