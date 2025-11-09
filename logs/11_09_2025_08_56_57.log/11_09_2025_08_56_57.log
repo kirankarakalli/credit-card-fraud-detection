@@ -1,9 +1,0 @@
-[2025-11-09 08:57:00] 77 root - INFO - data loading and preprocessing is started
-[2025-11-09 08:57:00] 16 root - INFO - loading a raw data from :C:\Users\karakkir\OneDrive - Tietoevry\credit-card-fraud-detection\data\raw\creditcard.csv
-[2025-11-09 08:57:01] 18 root - INFO - loaded a data from sucessfully:(284807, 31)
-[2025-11-09 08:57:01] 31 root - INFO - starting a data processing 
-[2025-11-09 08:57:02] 40 root - INFO - No missing values found
-[2025-11-09 08:57:02] 42 root - INFO - preprocessing is done
-[2025-11-09 08:57:02] 53 root - INFO - split a dataset into train and test
-[2025-11-09 08:57:11] 65 root - INFO - data split a sucessfully and strored in path
-[2025-11-09 08:57:11] 81 root - INFO - data loading and preprocessing is done
